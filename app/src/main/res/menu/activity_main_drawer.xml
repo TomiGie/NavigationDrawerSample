@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NavigationDrawerのメニュー項目 -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/ic_launcher"
+            android:title="menu1" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_launcher"
+            android:title="menu2" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/ic_launcher"
+            android:title="menu3" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/ic_launcher"
+            android:title="menu4" />
+    </group>
+
+    <item android:title="Column Title">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_launcher"
+                android:title="menu2-1" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/ic_launcher"
+                android:title="menu2-2" />
+        </menu>
+    </item>
+
+</menu>
