@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    //
+    // ナビゲーションドロワーをセットする
     private void setNavigationDrawer() {
         // Toolbarの設定
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

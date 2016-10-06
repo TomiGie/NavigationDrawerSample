@@ -8,13 +8,13 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <!-- app_bar_mainのレイアウトをincludeを使って表示 -->
+    <!-- app_bar_mainのレイアウトをincludeを使って表示している -->
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!-- メニュー内部にヘッダーを付けたくない場合、headerLayoutの設定を消去すればOK -->
+    <!-- メニュー内部にヘッダーを付けたくない場合、app:headerLayoutの設定を消去すればOK -->
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
